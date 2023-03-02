@@ -1,11 +1,12 @@
 import React from 'react'
+import { useRoutes } from 'react-router-dom'
+import routes from './router'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Hello React + TypeScript!
-      </header>
+      Hello React + TypeScript!
+      {useRoutes(routes)}
     </div>
   )
 }

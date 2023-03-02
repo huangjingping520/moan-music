@@ -57,6 +57,7 @@ module.exports = {
     'array-bracket-spacing': [
       'error',
       'always'
-    ]
+    ],
+    '@typescript-eslint/no-explicit-any': 'off',
   }
 }
