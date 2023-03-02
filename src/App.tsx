@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
         Hello React + TypeScript!
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
